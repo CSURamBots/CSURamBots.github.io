@@ -1,0 +1,11 @@
+{% set section = get_section(path="_index.md") %}
+
+<ul>
+  {% for page in section.pages %}
+  <li>
+    <a href="{{ page.path }}">
+      {{ page.title }}
+    </a>
+  </li>
+  {% endfor %}
+</ul>
