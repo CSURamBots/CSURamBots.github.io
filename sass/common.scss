@@ -4,4 +4,8 @@ body {
     background: nth($terminalSexyColors, 3);
     color: nth($terminalSexyColors, 2);
     font-family: sans-serif;
+    margin: 0;
+    #content {
+	margin: 8px;
+    }
 }
