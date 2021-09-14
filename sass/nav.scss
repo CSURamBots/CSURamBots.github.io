@@ -8,12 +8,6 @@ $navButtonColors: (
     nth(nth($terminalSexyColors, 1), 11)
 );
 
-body {
-    background: nth($terminalSexyColors, 3);
-    color: nth($terminalSexyColors, 2);
-    font-family: sans-serif;
-}
-
 .nav {
     $reactiveVerticalCrossover: 1200px;
     $reactiveVerticalCrossover2: 900px;
@@ -108,7 +102,7 @@ body {
 		@media (max-width: $reactiveVerticalCrossover2) {
 		    flex-basis: 20%;
 		}
-		margin: 0 1px;
+		margin: 0 2px;
 		transform: skewX(-25deg) translateY(1px);
 		padding: 0.5em 1em;
 		border-radius: 0;
