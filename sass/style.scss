@@ -69,12 +69,19 @@ body {
     // max-width: var(--breakpoint);
     text-align: center;
 
+    flex-direction: row;
+    @media (max-width: 800px) {
+	flex-direction: column;
+    }
+
     .primary {
 	align-items: flex-start;
 	display: flex;
 	flex: 1 0 35%;
-	flex-direction: column;
-	justify-content: center;
+	justify-content: flex-start;
+	@media (max-width: 800px) {
+	    justify-content: center;
+	}
 
 	h1 {
 	    text-align: center;
@@ -98,13 +105,19 @@ body {
     .secondary {
 	display: flex;
 	flex: 1 0 55%;
+	margin-bottom: 0.8rem;
 	flex-direction: column;
 	justify-content: flex-end;
-	margin-bottom: 0.8rem;
+	@media (max-width: 800px) {
+	    justify-content: center;
+	}
 
 	nav {
 	    display: flex;
-	    justify-content: center;
+	    justify-content: end;
+	    @media (max-width: 800px) {
+		justify-content: center;
+	    }
 
 	    a {
 		margin: 0 1px;
