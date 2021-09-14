@@ -24,22 +24,22 @@ $schemeLight: (
 
 $schemeDark: (
     ( /* colors */
-	#1d1a22,
-	#27232c,
-	#38333f,
-	#51495a,
-	#6f657b,
-	#91899c,
-	#b8b3bf,
-	#e3e2e6,
-	#72b7d2,
-	#a17bca,
-	#aa8ccd,
-	#a07652,
-	#cd7a9f,
-	#8fb0c0,
-	#a9876f,
-	#92a176
+	#1d1f21,
+	#cc6666,
+	#b5bd68,
+	#f0c674,
+	#81a2be,
+	#b294bb,
+	#8abeb7,
+	#c5c8c6,
+	#969896,
+	#cc6666,
+	#b5bd68,
+	#f0c674,
+	#81a2be,
+	#b294bb,
+	#8abeb7,
+    #ffffff
     ),
     #c9c5ce, /* foreground */
     #121015  /* background */
@@ -58,6 +58,7 @@ $navButtonColors: (
 body {
     background: nth($terminalSexyColors, 3);
     color: nth($terminalSexyColors, 2);
+    font-family: sans-serif;
 }
 
 .nav {
@@ -71,7 +72,7 @@ body {
     .primary {
 	align-items: flex-start;
 	display: flex;
-	flex: 1 0 50%;
+	flex: 1 0 35%;
 	flex-direction: column;
 	justify-content: center;
 
@@ -81,7 +82,9 @@ body {
 	    margin: 0.5em 0;
 
 	    a {
-		text-decoration-color: none;
+		color: nth(nth($terminalSexyColors, 1), 15);
+		text-decoration: none;
+		text-decoration-color: currentcolor;
 		font-size: 1.5em;
 		text-transform: uppercase;
 
@@ -94,7 +97,7 @@ body {
 
     .secondary {
 	display: flex;
-	flex: 1 0 50%;
+	flex: 1 0 55%;
 	flex-direction: column;
 	justify-content: flex-end;
 	margin-bottom: 0.8rem;
@@ -108,6 +111,10 @@ body {
 		transform: skewX(-25deg) translateY(1px);
 		padding: 0.5em 1em;
 		border-radius: 0;
+		color: nth(nth($terminalSexyColors, 1), 16);
+		text-decoration: none;
+		text-decoration-color: currentcolor;
+		font-weight: bold;
 
 		span {
 		    transform: skewX(25deg);
