@@ -9,8 +9,8 @@ $navButtonColors: (
 );
 
 .nav {
-    $reactiveVerticalCrossover: 1200px;
-    $reactiveVerticalCrossover2: 900px;
+    $reactiveVerticalCrossover: 1250px;
+    $reactiveVerticalCrossover2: 990px;
     
     display: flex;
     justify-content: center;
@@ -100,9 +100,9 @@ $navButtonColors: (
 		    flex-grow: 1;
 		}
 		@media (max-width: $reactiveVerticalCrossover2) {
-		    flex-basis: 20%;
+		    flex-basis: 21%;
 		}
-		margin: 0 2px;
+		margin: 0 2.5px;
 		transform: skewX(-25deg) translateY(1px);
 		padding: 0.5em 1em;
 		border-radius: 0;
