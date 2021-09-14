@@ -102,7 +102,7 @@ $navButtonColors: (
 		@media (max-width: $reactiveVerticalCrossover2) {
 		    flex-basis: 21%;
 		}
-		margin: 0 2.5px;
+		margin: 2.5px 2.5px 0;
 		transform: skewX(-25deg) translateY(1px);
 		padding: 0.5em 1em;
 		border-radius: 0;
