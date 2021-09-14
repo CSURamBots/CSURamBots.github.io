@@ -62,7 +62,8 @@ body {
 }
 
 .nav {
-    $reactiveVerticalCrossover: 1100px;
+    $reactiveVerticalCrossover: 1200px;
+    $reactiveVerticalCrossover2: 900px;
     
     display: flex;
     justify-content: center;
@@ -91,7 +92,7 @@ body {
 	    margin: 0.1em 0.1em 0 0.1em;
 
 	    a {
-		color: nth(nth($terminalSexyColors, 1), 15);
+		color: nth($terminalSexyColors, 2);
 		text-decoration: none;
 		text-decoration-color: currentcolor;
 		font-size: 1.5em;
@@ -126,6 +127,7 @@ body {
 		text-align: center;
 		flex-basis: 27.5em;
 		flex-grow: 0.5;
+		font-weight: bold;
 		@media (max-width: $reactiveVerticalCrossover) {
 		    flex-basis: min-content;
 		    flex-grow: 1;
@@ -150,7 +152,7 @@ body {
 		@media (max-width: $reactiveVerticalCrossover) {
 		    flex-grow: 1;
 		}
-		@media (max-width: $reactiveVerticalCrossover/1.22) {
+		@media (max-width: $reactiveVerticalCrossover2) {
 		    flex-basis: 20%;
 		}
 		margin: 0 1px;
@@ -166,7 +168,7 @@ body {
 		    transform: skewX(25deg);
 		    display: inline-block;
 		    font-size: 2em;
-		    text-shadow: 1px 1px nth($terminalSexyColors, 3);
+		    text-shadow: 1px 1px nth(nth($terminalSexyColors, 1), 1);
 		}
 
 	    }
