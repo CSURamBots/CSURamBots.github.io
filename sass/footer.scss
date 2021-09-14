@@ -8,13 +8,13 @@ footer {
     font-size: 1.5em;
     padding: 0.5em 0;
     
-    position:sticky;
+    position:fixed;
     bottom:0;
     width:100%;
     left: 0;
     
     @media (max-width: $reactiveVerticalCrossover) {
-	position:relative;
+	position: static;
     }
 
     display: flex;
