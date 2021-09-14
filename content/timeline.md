@@ -3,5 +3,17 @@ title = "Timeline"
 weight = 1
 +++
 
+# Completed Deliverables
 
-I've yet to get the actual content for any of these tabs, but the navigation (the top part) and the footer is done. Everything's responsive/mobile-friendly and will look great on all devices.
+# Anticipated Deliverables
+
+# Project Timeline
+
+There are two options to complete this:
+1. Create a custom timeline chart and put the image here (preferred)
+2. Use the below table format
+
+   | Date   | Objective   |
+   |--------|-------------|
+   | *Date* | *Objective* |
+

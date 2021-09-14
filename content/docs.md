@@ -1,6 +1,6 @@
 +++
-title = "Documents"
+title = "Resources"
 weight = 3
 +++
 
-# Documents
+Nothing interesting here... yet!

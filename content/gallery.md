@@ -3,4 +3,4 @@ title = "Gallery"
 weight = 4
 +++
 
-# Pictures and Demos
+Nothing interesting here... yet!

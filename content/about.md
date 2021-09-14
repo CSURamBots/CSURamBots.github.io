@@ -2,67 +2,10 @@
 title = "About"
 weight = 0
 +++
+# Project Summary
 
-# This is the main page
+# Background
 
-And stuff about our team goes here
+# Constraints
 
-And stuff about our team goes here
-
-And stuff about our team goes here
-
-And stuff about our team goes here
-
-And stuff about our team goes here
-
-And stuff about our team goes here
-
-And stuff about our team goes here
-
-And stuff about our team goes here
-
-And stuff about our team goes here
-
-And stuff about our team goes here
-
-And stuff about our team goes here
-
-And stuff about our team goes here
-
-And stuff about our team goes here
-
-And stuff about our team goes here
-
-And stuff about our team goes here
-
-And stuff about our team goes here
-
-And stuff about our team goes here
-
-And stuff about our team goes here
-
-And stuff about our team goes here
-
-And stuff about our team goes here
-
-And stuff about our team goes here
-
-And stuff about our team goes here
-
-And stuff about our team goes here
-
-And stuff about our team goes here
-
-And stuff about our team goes here
-
-And stuff about our team goes here
-
-And stuff about our team goes here
-
-And stuff about our team goes here
-
-And stuff about our team goes here
-
-And stuff about our team goes here
-
-And stuff about our team goes here
+# Goals

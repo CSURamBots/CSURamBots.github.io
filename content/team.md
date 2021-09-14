@@ -3,4 +3,8 @@ title = "Team"
 weight = 2
 +++
 
-# Team Members
+# Senior Design Students
+
+# VIP Students
+
+# Industry Advisors

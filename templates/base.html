@@ -11,12 +11,15 @@
     <link rel = "stylesheet" type = "text/css" href = "/nav.css">
     <link rel = "stylesheet" type = "text/css" href = "/footer.css">
     <link rel = "stylesheet" type = "text/css" href = "/common.css">
+    <link rel = "stylesheet" type = "text/css" href = "/content.css">
   </head>
   <body>
     <div id="content">
       {% include "nav.html" %}
-      {% block content %}
-      {% endblock %}
+      <div id="md">
+	{% block content %}
+	{% endblock %}
+      </div>
     </div>
   </body>
   <footer>
