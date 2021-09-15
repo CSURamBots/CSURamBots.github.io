@@ -3,6 +3,10 @@
 $paddingInternal: 5%;
 
 #md {
+    h2 {
+	font-size: 2em;
+    }
+    
     h1:not(.title) {
 	font-size: 3em;
     }

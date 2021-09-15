@@ -28,4 +28,12 @@
   {% endfor %}
 </div>
 
+<h1>
+  Industry Members
+</h1>
+
+{% set page = get_page(path="team_members/industry.md") %}
+
+{{ page.content | safe }}
+
 {% endblock content %}
