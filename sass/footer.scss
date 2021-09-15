@@ -1,4 +1,5 @@
 @import "style";
+@import "common";
 
 footer {
     background: nth(nth($terminalSexyColors, 1), 1);
@@ -57,4 +58,9 @@ footer#hidden {
     visibility: hidden;
     position: relative;
     bottom: auto;
+
+    @media (max-width: $reactiveVerticalCrossover) {
+	display: none;
+    }
 }
+
