@@ -1,0 +1,30 @@
+{% extends "site-tab.html" %}
+
+{% block content %}
+<h1 class="title">
+  {{ page.title }}
+</h1>
+
+{% set section = get_section(path="gallery_exhibits/_index.md") %}
+
+{% for page in section.pages %}
+
+<h1>
+  {{ page.title }}
+</h1>
+
+{{ page.content | safe }}
+
+{% set exhibit = get_url(path=page.extra.dir) %}
+<div class="exhibit">
+{% for file in page.extra.files %}
+
+<a href="{{ exhibit }}/{{ file }}">
+  <img src="{{ exhibit }}/{{ file }}">
+</a>
+
+{% endfor %}
+</div>
+{% endfor %}
+
+{% endblock content %}

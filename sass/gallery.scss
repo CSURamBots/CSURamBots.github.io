@@ -1,0 +1,18 @@
+@import "style";
+
+#md {
+    .exhibit {
+	display: flex;
+	flex-direction: row;
+	align: flex-start;
+	flex-wrap: wrap;
+	height: 500px;
+
+	a {
+	    height: 100%;
+	    img {
+		height: 100%;
+	    }
+	}
+    }
+}
