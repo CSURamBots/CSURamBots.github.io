@@ -7,6 +7,10 @@ RAMbots is an extension of the ECE Outreach team responsible for gaining interes
 
 # Background
 
+As a collaborative effort with the ECE Outreach team, this project aims to work as a continuation to help future generations of senior design engineers to have something to work with, improve upon, and show off to get students of all ages interested in stem.
+The team wants to have something amazing to show that will instantly inspire others.
+Realizing that many of the current market offerings are prohibitively expensive, we also aim to make this as in-expensive and as easy to set up as possible
+
 # Constraints
 
 # Goals
