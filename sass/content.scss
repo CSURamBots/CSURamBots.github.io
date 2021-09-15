@@ -1,6 +1,11 @@
 @import "style";
 
 #md {
+    a {
+	text-decoration: underline;
+	text-decoration-color: currentcolor;
+	color: nth(nth($terminalSexyColors, 1), 2);
+    }
     p {
 	font-size: 1.75em;
     }
