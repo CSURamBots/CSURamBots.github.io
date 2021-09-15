@@ -1,7 +1,7 @@
 +++
 title = "Jared Davis"
 [extra]
-image = "/images/team_members/placeholder.png"
+image = "/images/team_members/jared.jpg"
 website = "https://www.linkedin.com/in/jared-davis-8a2b2518b/"
 +++
 
