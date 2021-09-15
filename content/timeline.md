@@ -3,17 +3,11 @@ title = "Timeline"
 weight = 1
 +++
 
-# Completed Deliverables
+The timeline below is a _living list_.
+As time goes on, points will be added and updated.
 
-# Anticipated Deliverables
-
-# Project Timeline
-
-There are two options to complete this:
-1. Create a custom timeline chart and put the image here (preferred)
-2. Use the below table format
-
-   | Date   | Objective   |
-   |--------|-------------|
-   | *Date* | *Objective* |
+| Milestone        | Completion | Start Date | End Date |
+|------------------|------------|------------|----------|
+| Funding Proposal | 90%        | 9/12       | *TBD*    |
+| Website          | 100%       | 9/12       | 9/15     |
 

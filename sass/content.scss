@@ -1,6 +1,14 @@
 @import "style";
 
 #md {
+    p {
+	font-size: 1.75em;
+    }
+    
+    table {
+	font-size: 1.9em;
+    }
+    
     .title {
 	font-size: 4.5em;
 	text-align: center;
@@ -14,17 +22,19 @@
     }
 
     th {
-	padding-top: 12px;
-	padding-bottom: 12px;
-	background-color: nth(nth($terminalSexyColors, 1), 5);
+	background-color: nth(nth($terminalSexyColors, 1), 2);
+	color: nth(nth($terminalSexyColors, 1), 16);
+	text-shadow: 1px 1px nth(nth($terminalSexyColors, 1), 1);
     }
 
     td, th {
-	border: 1px solid nth(nth($terminalSexyColors, 1), 1);
-	padding: 8px;
+	border: 1px solid nth(nth($terminalSexyColors, 1), 9);
+	padding: 0.5em;
     }
 
-    p {
-	font-size: 1.5em;
+    td:nth-child(1) {
+	background-color: nth(nth($terminalSexyColors, 1), 1);
+	color: nth(nth($terminalSexyColors, 1), 16);
+	text-shadow: 1px 1px nth(nth($terminalSexyColors, 1), 1);
     }
 }
