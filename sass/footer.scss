@@ -53,3 +53,8 @@ footer {
     }
 }
 
+footer#hidden {
+    visibility: hidden;
+    position: relative;
+    bottom: auto;
+}
