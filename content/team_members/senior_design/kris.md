@@ -1,5 +1,5 @@
 +++
-title = "Kris Alquist"
+title = "Kristopher Alquist"
 [extra]
 image = "/images/team_members/kris.jpg"
 website = "https://www.linkedin.com/in/kristopher-alquist-038571211/"
