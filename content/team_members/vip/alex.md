@@ -1,7 +1,7 @@
 +++
 title = "Alex Kolodzik"
 [extra]
-image = "/images/team_members/alex.jpg"
+image = "../static/images/team_members/alex.jpg"
 website = "www.linkedin.com/in/alex-kolodzik-029"
 +++
 

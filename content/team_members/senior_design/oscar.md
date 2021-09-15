@@ -1,7 +1,7 @@
 +++
 title = "Oscar Coronado Rosales"
 [extra]
-image = "/images/team_members/oscar.jpg"
+image = "../static/images/team_members/oscar.jpg"
 website = " https://www.linkedin.com/in/oscar-coronado-rosales-8a6a391a5/"
 +++
 

@@ -1,7 +1,7 @@
 +++
 title = "Kris Alquist"
 [extra]
-image = "/images/team_members/kris.jpg"
+image = "../static/images/team_members/kris.jpg"
 website = "https://www.linkedin.com/in/kristopher-alquist-038571211/"
 resume = "/images/team_members/Resume_Kristopher_Alquist.pdf"
 +++

@@ -1,7 +1,7 @@
 +++
 title = "Craig Olson"
 [extra]
-image = "/images/team_members/placeholder.png"
+image = "../static/images/team_members/placeholder.png"
 website = ""
 resume = ""
 +++
