@@ -1,7 +1,7 @@
 +++
 title = "Devin Pohl"
 [extra]
-image = "../static/images/team_members/devin.jpg"
+image = "/images/team_members/devin.jpg"
 website = "https://github.com/Shizcow"
 resume = "https://pohldev.in/"
 +++
