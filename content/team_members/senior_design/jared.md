@@ -1,7 +1,7 @@
 +++
 title = "Jared Davis"
 [extra]
-image = "/images/team_members/placeholder.png"
+image = "/images/team_members/placeholder.jpg"
 website = ""
 resume = ""
 +++
