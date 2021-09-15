@@ -6,8 +6,22 @@
   {{ page.title }}
 </h1>
 
-{% set section = get_section(path="team_members/_index.md") %}
+<h1>
+  Senior Design Members
+</h1>
 
+{% set section = get_section(path="team_members/senior_design/_index.md") %}
+<div class="team_member_container">
+  {% for page in section.pages %}
+  {{ membermacros::makemember(page=page) }}
+  {% endfor %}
+</div>
+
+<h1>
+  VIP Students
+</h1>
+
+{% set section = get_section(path="team_members/vip/_index.md") %}
 <div class="team_member_container">
   {% for page in section.pages %}
   {{ membermacros::makemember(page=page) }}
