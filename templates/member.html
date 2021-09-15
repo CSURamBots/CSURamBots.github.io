@@ -1,7 +1,7 @@
 {% macro makemember(page) %}
 <div class="member_container">
-  {% set image = page.extra.image %}
-  <img src="{{ image }}">
+  {% set image = resize_image(path=page.extra.image, width=2100, height=2625) %}
+  <img src="{{ image.url }}">
   <span>
     {{ page.title }}
   </span>
