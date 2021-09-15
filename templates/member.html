@@ -1,0 +1,22 @@
+{% macro makemember(page) %}
+<div class="member_container">
+  {% set image = resize_image(path=page.extra.image, width=2100, height=2625) %}
+  <img src="{{ image.url }}">
+  <span>
+    {{ page.title }}
+  </span>
+  <div class="linkContainer">
+    {% if page.extra.website %}
+    <a href="{{ page.extra.website }}">
+      {% include "link.svg.html" %}
+    </a>
+    {% endif %}
+    {% if page.extra.resume %}
+    <a href="{{ page.extra.resume }}">
+      {% include "resume.svg.html" %}
+    </a>
+    {% endif %}
+  </div>
+  {{ page.content | safe }}
+</div>
+{% endmacro makemember %}
