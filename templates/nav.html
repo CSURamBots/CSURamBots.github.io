@@ -4,7 +4,7 @@
   <div class="primary">
     <h1>
       <a href="/">
-	<img src="/images/gallery/gwyn/RamLogoLarge.png" width="220">
+	<img src="{{config.base_url}}/images/gallery/gwyn/RamLogoLarge.png" width="220">
 	<span>RamBots</span>
       </a>
     </h1>
@@ -17,7 +17,7 @@
     </div>
     <nav>
       {% for page in section.pages %}
-      <a href="{{ page.path }}">
+      <a href="{{config.base_url}}/{{ page.path }}">
 	<span>
 	  {{ page.title }}
 	</span>
