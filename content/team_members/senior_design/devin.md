@@ -7,6 +7,6 @@ resume = "https://pohldev.in/"
 +++
 
 Senior year Computer Engineering student.
-Kernel developer at Hewlett Packard Enterprise.
+Software developer at Microsoft.
 Interests in low-level programming, compilers, and process improvement.
 Hobbies include contributing to open source software, engineering vintage electronics, and configuring Emacs.
