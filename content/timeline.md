@@ -21,7 +21,13 @@ As time goes on, points will be added and updated.
 
 ## Semester 2
 
-| Milestone     | Completion | Start Date | End Date |
-|---------------|------------|------------|----------|
-| Semester Plan | 100%       | 18/1       | 24/1     |
-|               |            |            |          |
+| Milestone                    | Completion | Start Date | End Date |
+|------------------------------|------------|------------|----------|
+| Semester Plan                | 100%       | 1/18       | 1/24     |
+| Basic Object Detection       | 100%       | 1/24       | 2/2      |
+| Ethics Document              | 100%       | 2/21       | 2/25     |
+| Portable Touchscreen Monitor | 100%       | 2/7        | 3/2      |
+| Major Parts Purchasing       | 100%       | 1/30       | 4/4      |
+| Presentation Poster          | 100%       | 4/11       | 4/18     |
+| Assembly of Robot            | 80%        | 3/9        | -        |
+| Final Report                 | 25%        | 4/4        | -        |
